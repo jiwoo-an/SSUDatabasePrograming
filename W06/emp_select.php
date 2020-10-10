@@ -1,7 +1,7 @@
 <?php
     $link = mysqli_connect("localhost", "admin", "admin", "employees");
-    $filtered_id = mysqli_real_escape_string($link, $_POST['number']);
-    $query = "SELECT * FROM employees ORDER BY emp_no DESC LIMIT $filtered_id ";
+    $filtered_id = mysqli_real_escape_string($link, $_POST['number']); // 번호 받아와서 보안처리
+    $query = "SELECT * FROM employees ORDER BY emp_no DESC LIMIT $filtered_id "; // 받아온 번호만큼의 회원수를 SELECT
     $result = mysqli_query($link, $query);
 
     $emp_info = '';

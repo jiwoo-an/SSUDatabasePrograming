@@ -30,12 +30,12 @@
     <a href = "emp_insert.php">(2) 신규 직원 등록</a><br>
     <form action="emp_update.php" method="POST">
         (3) 직원 정보 수정:
-        <input type = "text" name = "emp_no" placeholder="emp_no">
+        <input type = "text" name = "emp_no" placeholder="직원 번호">
         <input type = "submit" value="Search">
     </form>
     <form action="emp_delete.php" method="POST">
         (4) 직원 정보 삭제:
-        <input type = "text" name = "emp_no" placeholder="emp_no">
+        <input type = "text" name = "emp_no" placeholder="직원 번호">
         <input type = "submit" value="Delete">
     </form>
     <br><h5>※직원은 <?= $range['start'] ?>번 부터<?= $range['end']?>번까지 등록되어있다.</h5>
