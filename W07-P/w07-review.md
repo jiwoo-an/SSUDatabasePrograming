@@ -80,5 +80,5 @@ SELECT dept_name, count(*)
 - 마지막으로 데이터베이스 쿼리문을 다뤘던게 작년 2학기여서 그런지 좀 가물가물했다.  중간고사가 끝나고나서 데이터베이스 개론 책을 다시 빨리 훑어봐야겠다.
 ! 
 
-<a href="https://youtu.be/Sllp1TVTRlI">과제 실행 영상</a> 자막 포함입니다
+<a href="https://youtu.be/SxQeCdMtpQY">과제 실행 영상</a> 자막 포함입니다
 
