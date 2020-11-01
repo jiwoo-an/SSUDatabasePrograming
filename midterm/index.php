@@ -75,14 +75,14 @@ mysqli_free_result($result);
     <style>
         body{
             font-family: Consolas, monospace;
-            font-family: 12px;
+            font-family: 10px;
         }
         table{
             width: 40%;
             
         }
         th, td{
-            padding: 10px;
+            padding: 5px;
             border-bottom: 1px solid #dadada;
         }
     </style>
@@ -90,7 +90,7 @@ mysqli_free_result($result);
 <body>
     <h1>CORONA19 데이터 분석 서비스</h1>
     <br/>
-    확진 많은 지역 TOP 10
+    확진자 많은 지역 TOP 10
     <br/>
         <table>
             <tr>
@@ -105,7 +105,7 @@ mysqli_free_result($result);
     </table>
 
     <br/><br/><br/>
-    사망자 많은 나라 TOP 10
+    사망자 많은 지역 TOP 10
     <table>
             <tr>
                 <th>나라 이름</th>
