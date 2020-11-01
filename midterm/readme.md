@@ -53,11 +53,11 @@
 <br/><br/>
     <img width='600' src = 'https://user-images.githubusercontent.com/42990328/97802816-68d7c300-1c89-11eb-9478-8d937ef381e1.png'>
     <br/>
-    날짜를 이렇게 선택한다.
-<br/>
+    <h5>날짜를 이렇게 선택한다.</h5>
+<br/><br/>
     <img width='600' src = 'https://user-images.githubusercontent.com/42990328/97802818-69705980-1c89-11eb-848b-74772f4b7fef.png'>
     <br/>
-    그 날에 해당하는 정보를 볼 수 있다.
+    <h5>그 날에 해당하는 정보를 볼 수 있다.</h5>
 <br/><br/><br/>
 <h3>3. 나라 이름으로 정보 검색하기</h3>
 <br/>
@@ -65,19 +65,21 @@
 <br/><br/>
     <img width='600' src = 'https://user-images.githubusercontent.com/42990328/97802817-69705980-1c89-11eb-9d69-f155f90d661c.png'>
     <br/>
-    검색페이지. 아래에 있는 나라 이름 리스트에서 원하는 나라를 선택해 검색할 수 있다.
+    <h5>검색페이지. 아래에 있는 나라 이름 리스트에서 원하는 나라를 선택해 검색할 수 있다.</h5>
     <br/><br/>
     <img width='600' src = 'https://user-images.githubusercontent.com/42990328/97802819-6a08f000-1c89-11eb-80d0-8920e88d6a60.png'>
     <br/>
-    위 예시 사진은 Canada로 검색한 결과이다.
+    <h5>위 예시 사진은 Canada로 검색한 결과이다.
     <br/> South Korea의 경우 지역별로 데이터가 나눠져있지 않아
-    <br/> 지역이 빈칸으로 된 한가지 결과만 출력되어서 Canada를 예시로 사용했다.
+    <br/> 지역이 빈칸으로 된 한가지 결과만 출력되어서 Canada를 예시로 사용했다.</h5>
 <br/><br/>
 <h3>+ 메인 페이지(index)에 확진자가 많은 지역 Top10, 사망자가 많은 지역 Top10 출력</h3><br/>
 네이버 데이터랩에 실시간 검색어 Top10이 뜨듯이, 메인 페이지에 확진자와 사망자가 가장 많은 지역 Top10이 출력된다.<br/>
     <img width='600' src = 'https://user-images.githubusercontent.com/42990328/97802820-6a08f000-1c89-11eb-9731-0144d74547a9.png'>
     <br/>
     <img width='600' src = 'https://user-images.githubusercontent.com/42990328/97802813-67a69600-1c89-11eb-8394-5678a550399a.png'><br/>
+<br/>
+<br/>
 <br/>
 <br/>
 <h2>#동작 화면 소개 영상</h2>
