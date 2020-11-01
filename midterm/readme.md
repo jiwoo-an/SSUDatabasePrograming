@@ -52,11 +52,9 @@
     나라 - 지역 - 확진자 수- 사망자 수- 회복한 사람 수 순서로 출력된다.
 <br/><br/>
     <img width='600' src = 'https://user-images.githubusercontent.com/42990328/97802816-68d7c300-1c89-11eb-9478-8d937ef381e1.png'>
-    <br/>
     <h5>날짜를 이렇게 선택한다.</h5>
 <br/><br/>
     <img width='600' src = 'https://user-images.githubusercontent.com/42990328/97802818-69705980-1c89-11eb-848b-74772f4b7fef.png'>
-    <br/>
     <h5>그 날에 해당하는 정보를 볼 수 있다.</h5>
 <br/><br/><br/>
 <h3>3. 나라 이름으로 정보 검색하기</h3>
@@ -64,11 +62,9 @@
     링크를 타고 검색 페이지로 이동한 후 나라 이름 리스트를 참고하여 특정 나라의 최신 정보를 검색할 수 있다.
 <br/><br/>
     <img width='600' src = 'https://user-images.githubusercontent.com/42990328/97802817-69705980-1c89-11eb-9d69-f155f90d661c.png'>
-    <br/>
     <h5>검색페이지. 아래에 있는 나라 이름 리스트에서 원하는 나라를 선택해 검색할 수 있다.</h5>
     <br/><br/>
     <img width='600' src = 'https://user-images.githubusercontent.com/42990328/97802819-6a08f000-1c89-11eb-80d0-8920e88d6a60.png'>
-    <br/>
     <h5>위 예시 사진은 Canada로 검색한 결과이다.
     <br/> South Korea의 경우 지역별로 데이터가 나눠져있지 않아
     <br/> 지역이 빈칸으로 된 한가지 결과만 출력되어서 Canada를 예시로 사용했다.</h5>
@@ -83,5 +79,5 @@
 <br/>
 <br/>
 <h2>#동작 화면 소개 영상</h2>
-<a href="">동작 영상</a><br/>
+<a href="https://youtu.be/cw4l2Oc_WBk">동작 영상</a><br/>
     자세한 설명은 자막을 참조하세요.
