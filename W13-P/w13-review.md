@@ -17,12 +17,11 @@
 <br/>
 5. JSP(Java Server Page)란? HTML 내부에 java코드를 입력하여 웹 서버에서 동적으로 웹 브라우저를 관리하는 언어 <br/>
   컨트롤러로서 Servlet을 사용하고 보여지는 뷰 단에서 JSP 페이지를 사용한다. 뷰 내부의 모델로는 JavaBeans를 사용해서, 웹 브라우저에서 보여준다.<br/>
-  <br/><br/>
+  <br/>
   JSP 구성요소:<br/>
   1. 템플릿 데이터(클라이언트에게 출력되는 콘텐츠. HTML, XML 등)<br/>
   2. JSP 전용 태그(ex. <%@ %> , <% %>, <%= %>)<br/>
-  3. JSP 내장 객체(JSP에서 별도의 선언없이 사용 가능한 9개의 객체)<br/>
-  
+  3. JSP 내장 객체(JSP에서 별도의 선언없이 사용 가능한 9개의 객체)<br/><br/>
 6. HTML에서 post형식으로 보낸 form을 JSP에서 받을때, JSP 내장객체 중에서 request를 사용한다.
     ex) request.setCharacterEncoding("UTF-8"); 
       String employee_id = request.getParameter("employee_id");
@@ -31,7 +30,6 @@
       ...
 7. 앱 개발할 때, 앱의 패키지 명은 고유한 이름으로 작성되어야한다. 전세계의 모든 다른 앱들과 구분할 수 있게. 그래서 가장 많이 사용하는 방법은, url주소를 거꾸로 하는 것이다.
 ex) kr.ac.sungshin.w13
-
 
 <h2>#문제가 발생하거나 고민한 내용 + 해결과정</h2>
 1. 이클립스에서 오라클과 연결할 때, 오라클을 키고 ConnectionTest버튼을 누르면 Ping Failed가 떴다. 슬랙을 확인해보니 같은 오류를 경험한 학생이 있어서 그것을 참고하여 server을 localhost로 바꾸어서 진행했다. 교수님께서 실습에서 오라클을 개인 컴퓨터에 설치하기 때문에 Host는 localhost 로 설정해야 한다고 알려주셨다.
