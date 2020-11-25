@@ -29,6 +29,8 @@
       String first_name = request.getParameter("first_name");
       String last_name = request.getParameter("last_name");
       ...
+7. 앱 개발할 때, 앱의 패키지 명은 고유한 이름으로 작성되어야한다. 전세계의 모든 다른 앱들과 구분할 수 있게. 그래서 가장 많이 사용하는 방법은, url주소를 거꾸로 하는 것이다.
+ex) kr.ac.sungshin.w13
 
 
 <h2>#문제가 발생하거나 고민한 내용 + 해결과정</h2>
