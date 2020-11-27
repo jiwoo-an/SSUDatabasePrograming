@@ -60,4 +60,4 @@ pstmt = conn.prepareStatement(sql);
     
     
 <h2>#동작 화면 영상</h2>
-<a href="https://youtu.be/S4Meuhcgteg">클릭</a>
+<a href="https://youtu.be/1Vo7YnNWheE">클릭</a>
