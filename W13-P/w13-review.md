@@ -34,16 +34,29 @@ ex) kr.ac.sungshin.w13<br/>
 <h2>#문제가 발생하거나 고민한 내용 + 해결과정</h2>
 1. 이클립스에서 오라클과 연결할 때, 오라클을 키고 ConnectionTest버튼을 누르면 Ping Failed가 떴다. 슬랙을 확인해보니 같은 오류를 경험한 학생이 있어서 그것을 참고하여 server을 localhost로 바꾸어서 진행했다. 교수님께서 실습에서 오라클을 개인 컴퓨터에 설치하기 때문에 Host는 localhost 로 설정해야 한다고 알려주셨다.
 
+2. 직원 수정을 만들 때, 수정화면에서 원래 데이터가 뭐였는지 띄워주고 싶었다. String employee_id = request.getParameter("employee_id");로 불러온 employee_id는 수정화면에 잘 떴지만
+pstmt = conn.prepareStatement(sql);	
+		rs = pstmt.executeQuery();
+			first_name = rs.getString("first_name");
+			last_name = rs.getString("last_name");
+			email = rs.getString("email");
+			phone_number = rs.getString("phone_number");
+			salary = rs.getString("salary");
+이렇게 불러온 모든 값이 뜨지않았다. ResultSet.next()가 호출되지않았음이라는 알림이 떠서 검색해보니, while(rs.next())를 사용해서 rs.next()를 호출하면 된다는 것을 알게되었다.
+
 
 <h2>#참고할만한 내용</h2>
-     슬랙의 다른 학생 질문과 교수님 답변을 참조했다. https://dbpss2020-2nd.slack.com/archives/C019CJZ3RF1/p1606220977003200
+     1. 슬랙의 다른 학생 질문과 교수님 답변을 참조했다. https://dbpss2020-2nd.slack.com/archives/C019CJZ3RF1/p1606220977003200
+     2. ResultSet.next()가 호출되지 않았음이라는 알림이 뜨면 rs.getString~ 이전에 While(rs.next()), if(rs.next()), re.next()중에 하나를 해주면 된다고 아래 출처에서 알려주었다.
+ 출처: https://acua.tistory.com/entry/ResultSetnext가-호출되지-않았음 [지옥에서 천국까지]
+     
      
 <h2>#회고 (+-!)</h2>
-+: 
++: 수정보다 삭제가 쉬워보였지만 그래도 익숙하지 않은 jsp를 쓰니까 지금 강의에서 배울 때 더 잘 다뤄보고 싶어서 수정을 선택해서 진행했기때문에 성공했을 때 더 보람이 있었다.
 
--: 
+-: 자바파일은 대문자로 시작하는 것이 좋다고 한다. 계속 쓰는 언어에서는 형식이 헷갈리지 않는데, 몇 달만 안쓰면 금방 이런 것들을 잊어버린다. 주의해서 잘 외워야겠다.
 
-!: 자바파일은 대문자로 시작하는게 좋다. 
+!:  전에 썼지만 잊어버렸던 코드를 다시 찾을 때 git이 정말 편했다. 자잘한 문법은 잊어버렸어도 내가 어떤 파일에 어떤 걸 해서 넣어놨는지는 기억이 나기 때문이다. 개발자에게 git이 왜 좋다는건지 좀 알게 되었다. 
     
     
 <h2>#동작 화면 영상</h2>
