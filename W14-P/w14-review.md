@@ -13,6 +13,36 @@
 즉, node.js로 JavaScript를 프로그래밍 언어처럼 사용할 수 있게 된 것이다. 웹 개발자는 새로 데이터베이스를 다루는 언어를 배울 필요 없이 
 익숙한 자바스크립트로 데이터베이스까지 다룰 수 있으면 편리하니 나온 것이 2009년 발표된 Mongo DB다.
 
+3.  Mongo DB 구조
+{데이터베이스{컬렉션{도큐먼트들}}}
+
+도큐먼트는 보통 key:value로 들어가있다. JSON과 비슷한 이 것을 BSON(Binary JSON)이라고 부른다.
+value값이 여러개일 경우 []로 묶어 배열 형태로 나타낸다.
+
+
+4. mongo db에서 명령어 사용법
+-한 개의 데이터를 넣을 때는 insertOne
+
+-여러 개의 데이터를 넣을 때는 insertMany. 데이터를 여러 개 넣을 때 쓰는 []의 위치를 주의해야한다.
+
+
+-데이터를 찾을 때는 db.myCollection.find()명령어를 쓴다.
+
+
+-특정 데이터를 찾을 때는 db.myCollection.find({x:1}) 이런 식으로 입력하면 된다.
+
+-db.myCollection.find({x:1}, {_id:false}) 이렇게 하면 이 데이터를 찾아서 출력할 때 id정보는 뜨지 않는다.
+
+
+5. MongoDB에서 데이터를 가리킬 때 커서의 사용법:
+
+-var cursor = db.myCollection.find() 로 생성
+
+-cursor.next()를 써서 지금 가리키고 있는 것을 출력하고 다음 데이터로 넘어간다
+
+-다음 데이터가 있는지 확실치 않을 때에는 cursor.hasNext()가 true인지 확인하면 된다.
+
+커서는 사용하고 10분쯤 지나면 없어진다.
 
 
 
